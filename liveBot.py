@@ -7,7 +7,7 @@ import datetime
 
 def openAndAvailable():
     # os.system("Microsoft Teams.exe")
-    os.startfile("C:\\Users\\sesa567080\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Microsoft Teams.lnk")
+    os.startfile(<link to your Teams shortcut>)
     time.sleep(8)
 
     mouse.on_click(lambda: print("Left Button clicked."))
